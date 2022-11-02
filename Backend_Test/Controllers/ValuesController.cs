@@ -68,7 +68,6 @@ namespace Backend_Test.Controllers
             var x = UploadedFile(file);
             Images image = new Images()
             {
-                id = "1",
                 Image = x,
                 Changed = false,
                 FileName = file.FileName,
